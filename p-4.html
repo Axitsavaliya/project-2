@@ -1,0 +1,102 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UDF (User Defined Function)-4</title>
+</head>
+
+<body>
+    <h1 id="ok"></h1>
+
+    <script>
+
+        let a = parseInt(prompt("Enter A number"));
+        let b = parseInt(prompt("Enter B number"));
+        let c = parseInt(prompt("Enter C number"));
+        let d = parseInt(prompt("Enter D number"));
+
+
+
+        if (a > b) {
+            if (a > c) {
+                if (a > d) {
+                    console.log("a is bigg");
+                }
+            }
+        } else if (b > c) {
+            if (b > d) {
+                if (b > a) {
+                    console.log("b is bigg");
+                }
+            }
+        } else if (c>d){
+            if(c>a){
+                if(c>b){
+                    console.log("c is bigg");
+                }
+            }
+        }
+        else if(d>a){
+            if(d>b){
+                if(d>c){
+                    console.log("d is bigg");
+                }
+            }
+        }
+        else{
+            console.log(
+                "you entered same value in inputs"
+            );
+        }
+        
+
+    </script>
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UDF (User Defined Function)-4</title>
+</head>
+
+<body>
+
+    <script>
+
+        var a = parseInt(prompt("Enter A number"));
+        var b = parseInt(prompt("Enter B number"));
+        var c = parseInt(prompt("Enter C number"));
+        var d = parseInt(prompt("Enter D number"));
+
+        if (a > b && a > c && a > d) {
+            console.log("a is bigg");;
+        } else if (b > c && b > d && b > a) {
+            console.log("b is bigg");;
+        } else if (c > d && c > a && c > b) {
+            console.log("c is bigg");;
+        } else if (d > a && d > b && d > c) {
+            console.log("d is bigg");;
+        } else {
+            console.log("enter the same number");
+        }
+
+    </script>
+</body>
+
+</html>
